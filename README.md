@@ -1,5 +1,5 @@
 # Nintend-Wiiu-Usb
-Decompilations of WIIUUSBHelper.com. make an issue to ask for a new decompilation.
+Decompilations of NINTENDWIIUUsb.com. make an issue to ask for a new decompilation.
 # Notes
 this is not meant to devalue or cause the owner of WII U USB Helper to lose ad revenue, simply to allow and share the code.
 # Legal
