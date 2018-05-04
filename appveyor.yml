@@ -1,0 +1,29 @@
+version: '1.0.{build}'
+assembly_info:
+  patch: true
+  file: MyVersion.cs
+  assembly_version: '{version}'
+  assembly_file_version: '{version}'
+  assembly_informational_version: '{version}-rc1'
+assembly_version: $(appveyor_build_version)
+dotnet_csproj:
+  patch: true
+  file: '**\*.csproj'
+  version: '{version}'
+  package_version: '{version}'
+  assembly_version: '{version}'
+  file_version: '{version}'
+  informational_version: '{version}'
+dotnet_csproj:
+  patch: true
+  file: '**\*.csproj;**\*.props;**\*.fsproj;**\*.xml'
+  ...
+package_version: $(appveyor_build_version)
+clone_folder: c:\projects\myproject/https://github.com/NekokoTime/Nintend-Wiiu-Usb.git
+environment:
+  variable1: value
+  variable2: value
+test_script:
+  - cmd: ECHO this is batch
+test_script:
+  - ps: Write-Host "This is PowerShell"
