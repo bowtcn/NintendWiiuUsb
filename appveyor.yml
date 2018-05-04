@@ -1,1 +1,10 @@
+version: '{build}'
 
+image: Visual Studio 2017
+build:
+  parallel: true
+  project: Nintend-Wiiu-Usb.sln
+  verbosity: normal
+on_finish: 
+- ps: | # update appveyor build version, done last to prevent webhook breakage
+    update-appveyorbuild -version $env:AVVER
