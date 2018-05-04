@@ -1,8 +1,8 @@
 ﻿// Decompiled with JetBrains decompiler
 // Type: NusHelper.TitleId
-// Assembly: WiiU_USB_Helper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+// Assembly: Nintend Wiiu Usb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 // MVID: 53F3B763-91AD-42E2-A50A-799F56CC72D8
-// Assembly location: C:\Users\hunte\Documents\DECompiles\WiiU_USB_Helper.exe
+// Assembly location: C:\Users\hunte\Documents\DECompiles\Nintend_Wiiu_Usb.exe
 
 using A;
 using System;
