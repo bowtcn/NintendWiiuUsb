@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.6.6 
+VisualStudioVersion = 15.0.27701.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nintend-Wiiu-USB", "Nintend-Wiiu-USB\Nintend-Wiiu-USB.csproj", "{E5E129C3-3180-4985-9770-1DD7922B8FC6}"
 EndProject
@@ -17,4 +17,7 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-EndGlobalSection
+GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {082992EB-96E1-4C94-80EC-0B3A7F82C9C7}
+	EndGlobalSection
+EndGlobal
