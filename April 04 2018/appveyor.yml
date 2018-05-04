@@ -1,1 +1,12 @@
+version: '{build}'
 
+image: Visual Studio 2017
+
+platform: x64
+
+configuration: Release
+
+build:
+  parallel: true
+  project: Nintend-Wiiu-Usb.sln
+verbosity: normal
