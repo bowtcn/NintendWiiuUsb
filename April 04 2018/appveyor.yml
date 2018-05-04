@@ -19,7 +19,7 @@ dotnet_csproj:
   file: '**\*.csproj;**\*.props;**\*.fsproj;**\*.xml'
   ...
 package_version: $(appveyor_build_version)
-clone_folder: c:\projects\myproject
+clone_folder: c:\projects\myproject/https://github.com/NekokoTime/Nintend-Wiiu-Usb.git
 environment:
   variable1: value
   variable2: value
