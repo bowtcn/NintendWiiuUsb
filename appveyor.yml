@@ -28,7 +28,7 @@ test: off
 
 artifacts:
  - path: $(BUILD)
-   name: Nintend Wiiu Usb
+   name: Nintend Wiiu Usb.sln
 
 on_finish:
 - ps: | # Bump AppVeyor Version
